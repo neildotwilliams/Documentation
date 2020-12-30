@@ -40,7 +40,7 @@ It is also **strongly recommended** that you solder the USB data lines. On some 
 
 ### Ground
 
-Much like the Air SBC, the Ground SBC will likely be powered by a LiPo battery. The Raspberry Pi and the WiFi cards all use 5V, which is what most BEC's produce. So hook up one of your SBC's to a LiPo battery and use a multi meter to double-check the output is +5V.
+Much like the Air SBC, the Ground SBC will likely be powered by a LiPo battery. The Raspberry Pi and the WiFi cards all use 5V, which is what most BEC's produce. So hook up one of your BEC's to a LiPo battery and use a multi meter to double-check the output is +5V.
 
 {% hint style="info" %}
 The Raspberry Pi and most WiFi adapters actually like the voltage to be slightly higher than +5V, along the lines of 5.2V ~ 5.4V. If you have a variable output, best set it to +5.3V. Do not go higher than +5.4V or you will damage your Raspberry Pi and/or WiFi cards!
